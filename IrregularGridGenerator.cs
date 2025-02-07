@@ -556,3 +556,9 @@ public class IrregularQuadGridGenerator : MonoBehaviour {
         return (area1 + area2) * 0.5f;
     }
 }
+
+/*
+Big thanks to the following resources for helping giving me inspo:
+https://nicholasvanson.com/Irregular-Quad-Mesh-Grid-Topologies
+https://www.youtube.com/watch?v=Jm3pLya3d9c
+*/
