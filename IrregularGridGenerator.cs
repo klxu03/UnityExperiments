@@ -1,3 +1,15 @@
+/*
+Instructions on how to use this script to generate a irregular quad hex grid like that in Townscaper:
+Add this script to an empty GameObject in your scene.
+In Play Mode, click the Step 1..5 buttons (and Done at Step 6)
+to generate:
+1) Hex Points (using axial coords + ring groups)
+2) Triangulate them ring-by-ring and sextant-by-sextant
+3) Randomly merge triangles into quads
+4) Subdivide each face
+5) Relax the final mesh
+*/
+
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
